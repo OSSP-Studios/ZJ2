@@ -1,0 +1,54 @@
+body {
+  background-color: #AAAAAA;
+  font-family: "Verdana", "Arial", sans-serif;
+  font-size: 14px;
+  text-align: justify;
+  background-image: url("../img/kytka.jpg");
+  background-repeat: no-repeat;
+  background-position: 900px 500px;
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #336699;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #336699;
+}
+
+a.common {
+  color: #336699;
+}
+
+a.bottom {
+  color: #336699;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+hr {
+  height: 5px;
+  background-color: #336699;
+}
+
+img.jedna {
+  border: solid 3px #336699;
+  float: left;
+  margin-right: 15px;
+}
+
+img.dva {
+  border: solid 3px #336699;
+  float: right;
+  margin-left: 15px;
+}
+
+p {
+  text-indent: 15px;
+}
+
+/*konkrétní významy jednotlivých deklarací můžete nalézt např. na stránkách www.jakpsatweb.cz */
