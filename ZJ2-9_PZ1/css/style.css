@@ -1,0 +1,111 @@
+/**
+ * 
+ * ZJ2-9_PZ1
+ *
+ * Font taken from: 
+ * https://www.dafont.com/daedra.font
+ * https://www.dafont.com/dovahkiin.font
+ *
+ * Our one, true and only savior: 
+ * https: //stackoverflow.com/questions/2436749/how-to-add-multiple-font-files-for-the-same-font
+ */
+
+/* #region Import fontů */
+@font-face {
+    font-family: Deadra;
+    src: url(../fonts/Daedra.otf);
+}
+
+@font-face {
+    font-family: Deadra;
+    src: url(../fonts/Daedra-Bold.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Deadra;
+    src: url(../fonts/Daedra-Italic.otf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Deadra;
+    src: url(../fonts/Daedra-Bold-Italic.otf);
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Dovahkiin;
+    src: url(../fonts/Dovahkiin.otf);
+}
+
+@font-face {
+    font-family: Dovahkiin;
+    src: url(../fonts/Dovahkiin-Bold.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Dovahkiin;
+    src: url(../fonts/Dovahkiin-Italic.otf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Dovahkiin;
+    src: url(../fonts/Dovahkiin-Bold-Italic.otf);
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* #endregion */
+
+header {
+    border: 5px dashed red;
+    margin-bottom: 2%;
+}
+
+header>h1 {
+    font-family: Deadra;
+    text-align: center;
+    font-size: 3em;
+}
+
+main,
+aside {
+    overflow: hidden;
+    padding: 1.25em;
+    margin-bottom: 2em;
+}
+
+main h2,
+aside h2 {
+    display: inline;
+}
+
+main {
+    border: 5px dashed blue;
+    font-family: Deadra;
+    font-size: 2em;
+}
+
+aside {
+    border: 5px dashed black;
+    font-family: Dovahkiin;
+    font-size: 2em;
+}
+
+@media (max-width: 1040px) {
+
+    main,
+    aside {
+        float: left;
+        width: initial;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 2em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+}
